@@ -3,7 +3,7 @@
 ## Informal Exercises
 
 1. [Today](https://www.google.com/)
-2. [Exercise 1](https://github.com/rasachdev/data146/blob/main/exercise1.html)
+2. [Exercise 1]()
 
 ## Projects
 
