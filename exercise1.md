@@ -1,4 +1,4 @@
-# Here are my answers to this assignment for this weekend
+# Answers to weekend assignment
   1.
   2.
   3.
