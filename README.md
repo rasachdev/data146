@@ -1,4 +1,4 @@
-# Welcome to my DATA 146 Homework Index
+# Welcome To My DATA 146 Homework Index
 
 ## Informal Exercises
 
