@@ -2,8 +2,8 @@
 
 ## Informal Exercises
 
-1. [Today](https://www.google.com/)
-2. [Exercise 1](exercise1.md)
+1. [Exercise 1](exercise1.md)
+2. [Today](https://www.google.com/)
 
 ## Projects
 
