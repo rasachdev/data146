@@ -3,7 +3,6 @@
 ## Informal Exercises
 
 1. [Exercise 1: Gapminder](exercise1.md)
-2. [Today](https://www.google.com/)
 
 ## Projects
 
