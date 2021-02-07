@@ -6,7 +6,7 @@
 
 ## Projects
 
-Project 1
-Project 2
+1. Project 1
+2. Project 2
 
 etc...
