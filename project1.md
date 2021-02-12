@@ -12,6 +12,7 @@ This shows how to read a file and improt it into the work session. You must have
 Example of data frame I created from the code snippet above:
 
 ![](gapminderpic.PNG)
+
 The number of rows and columns can be determined by ```data.shape``` and ```data.size```
 
 3. 
