@@ -9,6 +9,9 @@ data = pd.read_csv(path_to_data, sep='\t')
 data
 ``` 
 This shows how to read a file and improt it into the work session. You must have the ```gapminder.tsv``` in the root directory. Specificying an arguement within the ```read_()``` function is important because in the example about the data is a ```.tsv```, so it needs to be separated by a tab. 
-Example of data frame I created:
+Example of data frame I created from the code snippet above:
 
 ![](gapminderpic.PNG)
+The number of rows and columns can be determined by ```data.shape``` and ```data.size```
+
+3. 
