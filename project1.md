@@ -7,5 +7,4 @@
 path_to_data = 'gapminder.tsv'
 data = pd.read_csv(path_to_data, sep='\t')
 data
-```
-   This shows how to read a file and improt it into the work session. You must have the ```gapminder.tsv``` in the root directory. 
+``` This shows how to read a file and improt it into the work session. You must have the ```gapminder.tsv``` in the root directory. 
