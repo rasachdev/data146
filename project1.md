@@ -10,4 +10,4 @@ data
 ``` 
 This shows how to read a file and improt it into the work session. You must have the ```gapminder.tsv``` in the root directory. Specificying an arguement within the ```read_()``` function is important because in the example about the data is a ```.tsv```, so it needs to be separated by a tab. 
 Example of data frame I created:
-![]()
+![](gapminderpic.PNG)
