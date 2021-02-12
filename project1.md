@@ -16,3 +16,17 @@ Example of data frame I created from the code snippet above:
 The number of rows and columns can be determined by ```data.shape``` and ```data.size```
 
 3. 
+
+4. The country Rwanda in Africa had the lowest life expectancy of 23.599 in the year of 1992. The reason for this is the Rwandan Genocide at the time. 
+
+5. 
+
+6. 
+
+7. 
+
+8. 
+
+9. 
+
+10. 
