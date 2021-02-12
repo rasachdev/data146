@@ -21,7 +21,7 @@ The number of rows and columns can be determined by ```data.shape``` and ```data
 
 5. 
 
-6. 
+6. The ``` & ``` is the AND operator and compares two operands and returns ```TRUE``` if both operands are true. The ``` == ``` is the EQUAL TO operator and compares two operands and returns ```TRUE``` if both operands are equal. The ``` | ``` is the OR operator and compares two operands and returns ```TRUE``` if either operand is true. The ``` ^ ``` is the XOR operator and compares operands and returns ```TRUE``` if at least one operand is true.
 
 7. 
 
