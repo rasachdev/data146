@@ -21,7 +21,7 @@ The number of rows and columns can be determined by ```data.shape``` and ```data
 
 5. 
 
-6. The ``` & ``` is the AND operator. It compares two operands and returns ```TRUE``` if both operands are true. The ``` == ``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. The ``` | ``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand is true. The ``` ^ ``` is the XOR operator and compares operands and returns ```TRUE``` if [].
+6. The ``` & ``` is the AND operator. It compares two operands and returns ```TRUE``` if both operands are true. The ```==``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand is true. The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if [].
 
 7. The ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. 
 
@@ -39,6 +39,6 @@ import pandas as pd
 df = pd.read_csv(file_name)
 ```
 
-9. The ```.apply()``` is a method for iterating over a loop. A function gets inputted and applied to the data frame. 
+9. The ```.apply()``` is a method for iterating over a loop. A function gets inputted and applied to the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()```. ```.apply()``` is the preferred approach because []. 
 
-10. 
+10. An alterative to ```.iloc``` is to use ```.get_value()``` and ```.set_value()```. 
