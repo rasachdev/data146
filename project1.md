@@ -23,7 +23,7 @@ The number of rows and columns can be determined by ```data.shape``` and ```data
 
 6. The ``` & ``` is the AND operator. It compares two operands and returns ```TRUE``` if both operands are true. The ``` == ``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. The ``` | ``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand is true. The ``` ^ ``` is the XOR operator and compares operands and returns ```TRUE``` if [].
 
-7. 
+7. ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. 
 
 8. 
 
