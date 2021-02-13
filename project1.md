@@ -41,4 +41,4 @@ df = pd.read_csv(file_name)
 
 9. The ```.apply()``` is a method for iterating over a loop. A function gets inputted and applied to the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()```. ```.apply()``` is the preferred approach because []. 
 
-10. An alterative to ```.iloc``` is to use ```.get_value()``` and ```.set_value()```. 
+10. An alterative approach to ```.iloc``` is to use ```.get_value()``` and ```.set_value()```. 
