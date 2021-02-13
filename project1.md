@@ -23,9 +23,21 @@ The number of rows and columns can be determined by ```data.shape``` and ```data
 
 6. The ``` & ``` is the AND operator. It compares two operands and returns ```TRUE``` if both operands are true. The ``` == ``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. The ``` | ``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand is true. The ``` ^ ``` is the XOR operator and compares operands and returns ```TRUE``` if [].
 
-7. ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. 
+7. The ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. 
 
-8. 
+8. An API stands for Application Programming Interface. It is used to send and get data by code. 
+```
+import requests
+
+url = 'https://api.covidtracking.com/v1/states/daily.csv'
+
+r = requests.get(url)
+with open(file_name, 'wb') as f:
+    f.write(r.content)
+
+import pandas as pd
+df = pd.read_csv(file_name)
+```
 
 9. 
 
