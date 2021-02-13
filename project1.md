@@ -13,9 +13,9 @@ Example of data frame I created from the code snippet above:
 
 ![](gapminderpic.PNG)  The number of rows and columns can be determined by ```data.shape``` and ```data.size```
 
-3. 
+3. The ```year``` variable exhibits regular intervals of 5 years starting with 1952. Adding data from 2012 and 2017 would make it more current. 284 new outcomes would be added to the data frame; 142 for each year. 
 
-4. The country Rwanda in Africa had the lowest life expectancy of 23.599 in the year of 1992. The reason for this is the Rwandan Genocide at the time. 
+4. The country Rwanda in Africa had the lowest life expectancy of 23.599 in the year of 1992. The reason for this is the Rwandan Genocide at the time where lots of people died as well as the poor living and health conditions overall. 
 
 5. 
 
