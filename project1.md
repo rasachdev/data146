@@ -39,6 +39,6 @@ import pandas as pd
 df = pd.read_csv(file_name)
 ```
 
-9. 
+9. The ```.apply()``` is a method for iterating over a loop. A function gets inputted and gets applied to the data frame. 
 
 10. 
