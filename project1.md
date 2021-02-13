@@ -25,7 +25,7 @@ The number of rows and columns can be determined by ```data.shape``` and ```data
 
 7. The ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. 
 
-8. An API stands for Application Programming Interface. It is used to send and get data by code. 
+8. An API stands for Application Programming Interface. It is used to send and get data by code. Here is an example:
 ```
 import requests
 
