@@ -35,13 +35,13 @@ The last column shows the Total GDP for the countries in 2007:
 Spain exhibited the most significant increase in Total GDP during the previous 5-year period.
 
 ## 6. 
-The ``` & ``` is the AND operator. It compares two operands and returns ```TRUE``` if both operands are true. It is useful in finding data that has multiple criteria for example ```data_asia = data[(data['continent']=='Asia') & (data['year'] == data['year'].max())]```. 
+The ``` & ``` is the AND operator. It compares two operands and returns ```TRUE``` if both operands are true. It is useful in finding data that has multiple criteria for example ```data_asia = data[(data['continent']=='Asia') & (data['year'] == data['year'].max())]```. This only adds to the index if both conditions are true. 
 
-The ```==``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. Example in programming: ```data_asia = data[(data['continent']=='Asia')]```. This adds to the index wherever the continent is Asia is true. 
+The ```==``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. Example in programming: ```data_asia = data[(data['continent']=='Asia')]```. This adds to the index wherever the continent is Asia is true. This is useful for finding specific data. 
 
-The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand is true. Example in programming: ```ex_country = data[(data['country']=='Germany') | (data['country']=='France')]```. This adds to the index wherever the country is Germany or the country is France is true.
+The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand, or both, is true. Example in programming: ```ex_country = data[(data['country']=='Germany') | (data['country']=='France')]```. This adds to the index wherever the country is Germany or the country is France is true. This is useful for finding data that doesn't need to fit all of the criteria. 
 
-The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if only one operand is true but returns ```FALSE``` is both are true or both are false. Example: ```('bob' == 'joe') ^ (21>20)``` will return ```TRUE```.
+The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if only one operand is true but returns ```FALSE``` is both are true or both are false. Example: ```('bob' == 'joe') ^ (21>20)``` will return ```TRUE```. This is useful for finding data where only one condition needs to be met. 
 
 ## 7. 
 The ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. Example: ```data_asia.loc[11]``` and ```data_asia.iloc[[1,2,3,4,5,6,7],[1,2,3]]```
