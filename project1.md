@@ -22,7 +22,8 @@ The ```year``` variable exhibits regular intervals of 5 years starting with 1952
 The country Rwanda in Africa had the lowest life expectancy of 23.599 in the year of 1992. The reason for this is the Rwandan Genocide at the time where lots of people died as well as the poor living and health conditions overall. 
 
 ## 5. 
-Write here
+![](2002.PNG)
+![](2007.PNG)
 
 ## 6. 
 The ``` & ``` is the AND operator. It compares two operands and returns ```TRUE``` if both operands are true. The ```==``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand is true. The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if [].
