@@ -24,6 +24,7 @@ The country Rwanda in Africa had the lowest life expectancy of 23.599 in the yea
 ## 5. 
 The last column shows the Total GDP for the countries in 2002:
 ![](2002.PNG)
+
 The last column shows the Total GDP for the countries in 2007:
 ![](2007.PNG)
 
