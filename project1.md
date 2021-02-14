@@ -12,7 +12,7 @@ data = pd.read_csv(path_to_data, sep='\t')
 This shows how to read a file and import it into the work session. Specificying an arguement within the ```read()``` function is significant because in the example about the data is a ```.tsv```, so it is tab separated, thus needing to add ```sep='\t')``` into the ```read_csv()```. 
 Example of data frame I created from the code snippet above:
 
-![](gapminderpic.PNG)  The number of rows and columns can be determined by ```data.shape``` and ```data.size```
+![](gapminderpic.PNG)![](gapminderdescribe.PNG) The number of rows and columns can be determined by ```data.shape``` and ```data.size```
 
 ## 3. 
 The ```year``` variable exhibits regular intervals of 5 years starting with 1952. Adding data from 2012 and 2017 would make it more current. 284 new outcomes would be added to the data frame; 142 for each year. 
