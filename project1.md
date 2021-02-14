@@ -28,6 +28,8 @@ The last column shows the Total GDP for the countries in 2002:
 The last column shows the Total GDP for the countries in 2007:
 ![](2007.PNG)
 
+Spain exhibited the most significant increase in Total GDP during the previous 5-year period 
+
 ## 6. 
 The ``` & ``` is the AND operator. It compares two operands and returns ```TRUE``` if both operands are true. The ```==``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand is true. The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if [].
 
