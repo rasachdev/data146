@@ -33,9 +33,10 @@ Spain exhibited the most significant increase in Total GDP during the previous 5
 ## 6. 
 The ``` & ``` is the AND operator. It is useful in finding data that has multiple criteria for example ```data_asia = data[(data['continent']=='Asia') & (data['year'] == data['year'].max())]```. 
 
-The ```==``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. Example: ```data_asia = data[(data['continent']=='Asia')]```
+The ```==``` is the EQUAL TO operator. It compares two operands and returns ```TRUE``` if both operands are equal. Example in programming: ```data_asia = data[(data['continent']=='Asia')]```. This adds to the index wherever the country is Asia is true. 
 
-The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand is true. 
+The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand is true. Example in programming: ```ex_country = data[(data['country']=='Germany') | (data['country']=='France')]```
+
 
 The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if [].
 
