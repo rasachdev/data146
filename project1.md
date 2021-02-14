@@ -44,7 +44,7 @@ The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` 
 The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if only one operand is true but returns ```FALSE``` is both are true or both are false. Example: ```('bob' == 'joe') ^ (21>20)``` will return ```TRUE```
 
 ## 7. 
-The ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. 
+The ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. Example: ```data_asia.loc[11]``` and ```data_asia.iloc[[1,2,3,4,5,6,7],[1,2,3]]```
 
 ## 8. 
 An API stands for Application Programming Interface. It is used to send and get data by code. Here is an example:
