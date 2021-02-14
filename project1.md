@@ -22,7 +22,9 @@ The ```year``` variable exhibits regular intervals of 5 years starting with 1952
 The country Rwanda in Africa had the lowest life expectancy of 23.599 in the year of 1992. The reason for this is the Rwandan Genocide at the time where lots of people died as well as the poor living and health conditions overall. 
 
 ## 5. 
+The last column shows the Total GDP for the countries in 2002:
 ![](2002.PNG)
+The last column shows the Total GDP for the countries in 2007:
 ![](2007.PNG)
 
 ## 6. 
