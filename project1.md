@@ -14,6 +14,7 @@ This shows how to read a file and import it into the work session. Specificying 
 Example of data frame I created from the code snippet above:
 
 ![](gapminderpic.PNG)
+
 ![](gapminderdescribe.PNG)
 
 The description of data can be seen by ```data.describe()``` or ```data.info()```. The number of rows and columns can be determined by ```data.shape```. Columns can also be seen by ```data.columns```
