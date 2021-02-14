@@ -32,7 +32,7 @@ The last column shows the Total GDP for the countries in 2002:
 The last column shows the Total GDP for the countries in 2007:
 ![](2007.PNG)
 
-Spain exhibited the most significant increase in Total GDP during the previous 5-year period 
+Spain exhibited the most significant increase in Total GDP during the previous 5-year period.
 
 ## 6. 
 The ``` & ``` is the AND operator. It is useful in finding data that has multiple criteria for example ```data_asia = data[(data['continent']=='Asia') & (data['year'] == data['year'].max())]```. 
