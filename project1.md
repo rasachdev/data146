@@ -1,7 +1,7 @@
 # Project 1
 
 ## 1. 
-A package place which contains a ton of modules. A library is not too different from a package except that it contains a number of different packages. In order to use it you have to first install the package from the interpreter and then import it into your workspace. ```import numpy as np``` or ```import pandas as pd``` are examples we have used in class. By importing pandas as 'pd' ('pd' is the alias), the alias allows for cleaner, simpler, and shorter code. 
+A package place which contains a ton of modules. A library is not too different from a package except that it contains a number of different packages. In order to use it you have to first install the package from the interpreter and then import it into your workspace. ```import numpy as np``` or ```import pandas as pd``` or ```from datetime import datetime```are examples we have used in class. By importing pandas as 'pd' ('pd' is the alias), the alias allows for cleaner, simpler, and shorter code. 
 
 ## 2. 
 A data frame is like a chart with multiple rows and columns of information that can be sifted through. The Pandas library is useful for working with data frames. To read a file from its remote location you can use the ```.read()``` command. Example:
@@ -9,7 +9,7 @@ A data frame is like a chart with multiple rows and columns of information that 
 path_to_data = 'gapminder.tsv'
 data = pd.read_csv(path_to_data, sep='\t')
 ``` 
-This shows how to read a file and import it into the work session. Specificying an arguement within the ```read()``` function is significant because in the example about the data is a ```.tsv```, so it is tab separated, thus needing to add ```sep='\t')``` into the ```read_csv()```.
+This shows how to read a file and import it into the work session. Specificying an arguement within the ```read()``` function is significant because in the example about the data is a ```.tsv```, so it is tab separated, thus needing to add ```sep='\t')``` into the ```read_csv()``` part.
 
 Example of data frame I created from the code snippet above:
 
