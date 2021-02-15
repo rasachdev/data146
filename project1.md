@@ -4,7 +4,7 @@
 A package place which contains a ton of modules. A library is not too different from a package except that it contains a number of different packages. In order to use it you have to first install the package from the interpreter and then import it into your workspace. ```import numpy as np``` or ```import pandas as pd``` are examples we have used in class. By importing pandas as 'pd' ('pd' is the alias), the alias allows for cleaner, simpler, and shorter code. 
 
 ## 2. 
-A data frame is like a chart with mulitple rows and columns of information that can be sifted through. The pandas library is useful for working with data frames. To read a file from its remote location you can use the ```.read()``` command. Example:
+A data frame is like a chart with multiple rows and columns of information that can be sifted through. The Pandas library is useful for working with data frames. To read a file from its remote location you can use the ```.read()``` command. Example:
 ```
 path_to_data = 'gapminder.tsv'
 data = pd.read_csv(path_to_data, sep='\t')
@@ -62,7 +62,7 @@ df = pd.read_csv(file_name)
 ```
 
 ## 9. 
-The ```.apply()``` is a method for iterating over a loop. A function gets inputted and applied to the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()```. ```.apply()``` is the preferred approach because []. 
+The ```.apply()``` is a method for iterating over a loop. A function gets inputted and applied to all values in the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()```. ```.apply()``` is the preferred approach because cleaner,simpler, and more efficient. 
 
 ## 10. 
 An alterative approach to ```.iloc``` is to use ```.get_value()``` and ```.set_value()```. 
