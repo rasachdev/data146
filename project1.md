@@ -47,7 +47,7 @@ The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if 
 The ```.loc``` gets information by using its label, while ```.iloc``` gets information from its integer position. Example: ```data_asia.loc[11]``` and ```data_asia.iloc[[1,2,3,4,5,6,7],[1,2,3]]```. This gives all data from a series of consecutive columns ```data_asia.iloc[:, 0:5]```
 
 ## 8. 
-An API stands for Application Programming Interface. It is used to access data by send and get requests for data. Here is an example:
+An API stands for Application Programming Interface. It is used to access data by send and get requests for data. Here is an example of how to construct a request to a remote server, write a local file, and then import it into the work session:
 ```
 import requests
 
