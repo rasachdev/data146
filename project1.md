@@ -47,7 +47,7 @@ The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if 
 The ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. Example: ```data_asia.loc[11]``` and ```data_asia.iloc[[1,2,3,4,5,6,7],[1,2,3]]```
 
 ## 8. 
-An API stands for Application Programming Interface. It is used to send and get data by code. Here is an example:
+An API stands for Application Programming Interface. It is used to send and get data by code by requests. Here is an example:
 ```
 import requests
 
@@ -62,7 +62,7 @@ df = pd.read_csv(file_name)
 ```
 
 ## 9. 
-The ```.apply()``` is a method for iterating over a loop. A function gets inputted and applied to all values in the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()```. ```.apply()``` is the preferred approach because cleaner,simpler, and more efficient. 
+The ```.apply()``` is a method where a function gets inputted and applied to all values in the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()```. ```.apply()``` is the preferred approach because cleaner, simpler, and more efficient as we don'y have to rewrite functions and we can use it once. 
 
 ## 10. 
-An alterative approach to ```.iloc``` is to use ```.get_value()``` and ```.set_value()```. 
+An alterative approach to ```.iloc``` is to simply print the columns that are wanted like so: ```print(gapmind_data[['country', 'year', 'pop']])```. 
