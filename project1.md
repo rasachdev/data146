@@ -1,7 +1,7 @@
 # Project 1
 
 ## 1. 
-A package place which contains a ton of modules. A library is not too different from a package except that it contains a number of different packages. In order to use it you have to first install the package from the interpreter and then import it into your workspace. ```import numpy as np``` or ```import pandas as pd``` or ```from datetime import datetime```are examples we have used in class. By importing pandas as 'pd' ('pd' is the alias), the alias allows for cleaner, simpler, and shorter code. 
+A package is collection which contains a ton of modules which have certain capabilities. A library is essentially a bunch of useful functions that can be used whenever and perform common tasks. In order to use a package you have to first install the package from the interpreter and then import it into your workspace. ```import numpy as np``` or ```import pandas as pd``` or ```from datetime import datetime```are examples we have used in class. By importing pandas as 'pd' ('pd' is the alias), the alias allows for cleaner, simpler, and shorter code. 
 
 ## 2. 
 A data frame is like a chart with multiple rows and columns of information that can be sifted through. The Pandas library is useful for working with data frames. To read a file from its remote location you can use the ```.read()``` command. Example:
@@ -20,7 +20,7 @@ Example of data frame I created from the code snippet above:
 The description of data can be seen by ```data.describe()``` or ```data.info()```. The number of rows and columns can be determined by ```data.shape```. Columns can also be seen by ```data.columns```
 
 ## 3. 
-The ```year``` variable exhibits regular intervals of 5 years starting with 1952. Adding data from 2012 and 2017 would make it more current. 284 new outcomes would be added to the data frame; 142 for each year. 
+The ```year``` variable exhibits regular intervals of 5 years starting with 1952. Adding data from 2012 and 2017 would make it more current. 284 new outcomes would be added to the data frame; 142 for each year added. 
 
 ## 4. 
 The country Rwanda in Africa had the lowest life expectancy of 23.599 in the year of 1992. The reason for this is the Rwandan Genocide at the time where lots of people died as well as the poor living and health conditions overall. 
@@ -41,17 +41,26 @@ The ```==``` is the EQUAL TO operator. It compares two operands and returns ```T
 
 The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand, or both, is true. Example in programming: ```ex_country = data[(data['country']=='Germany') | (data['country']=='France')]```. This adds to the index wherever the country is Germany or the country is France is true. This is useful for finding data that doesn't need to fit all of the criteria. 
 
-The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if only one operand is true but returns ```FALSE``` is both are true or both are false. Example: ```('bob' == 'joe') ^ (21>20)``` will return ```TRUE```. This is useful for finding data where only one condition needs to be met. 
+The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if only one operand is true but returns ```FALSE``` if both are true or both are false. Example: ```('bob' == 'joe') ^ (21>20)``` will return ```TRUE```. This is useful for finding data where only one condition must met. 
 
 ## 7. 
-The ```.loc``` gets information from its label, while ```.iloc``` gets information from its integer position. Example: ```data_asia.loc[11]``` and ```data_asia.iloc[[1,2,3,4,5,6,7],[1,2,3]]```
+The ```.loc``` gets information by using its label, while ```.iloc``` gets information from its integer position. Example: ```data_asia.loc[11]``` and ```data_asia.iloc[[1,2,3,4,5,6,7],[1,2,3]]```
 
 ## 8. 
-An API stands for Application Programming Interface. It is used to send and get data by code by requests. Here is an example:
+An API stands for Application Programming Interface. It is used to access data by send and get requests for data. Here is an example:
 ```
 import requests
 
+import os
+
+data_folder = 'data'
+if not os.path.exists(data_folder):
+    os.makedirs(data_folder)
+
 url = 'https://api.covidtracking.com/v1/states/daily.csv'
+
+file_name_short = 'ctp_' + str(dt.now(tz = pytz.utc)).replace(' ', '_') + '.csv'
+file_name = os.path.join(data_folder, file_name_short)
 
 r = requests.get(url)
 with open(file_name, 'wb') as f:
@@ -62,7 +71,7 @@ df = pd.read_csv(file_name)
 ```
 
 ## 9. 
-The ```.apply()``` is a method where a function gets inputted and applied to all values in the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()```. ```.apply()``` is the preferred approach because cleaner, simpler, and more efficient as we don'y have to rewrite functions and we can use it once. 
+The ```.apply()``` is a method where a function gets inputted and applied to all values in the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()```. The ```.apply()``` is the preferred approach because cleaner, simpler, and more efficient as we don'y have to rewrite functions and we can use it once. 
 
 ## 10. 
 An alterative approach to ```.iloc``` is to simply print the columns that are wanted like so: ```print(gapmind_data[['country', 'year', 'pop']])```. 
