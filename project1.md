@@ -41,10 +41,10 @@ The ```==``` is the EQUAL TO operator. It compares two operands and returns ```T
 
 The ```|``` is the OR operator. It compares two operands and returns ```TRUE``` if either operand, or both, is true. Example in programming: ```ex_country = data[(data['country']=='Germany') | (data['country']=='France')]```. This adds to the index wherever the country is Germany or the country is France is true. This is useful for finding data that doesn't need to fit all of the criteria. 
 
-The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if only one operand is true but returns ```FALSE``` if both are true or both are false. Example: ```('bob' == 'joe') ^ (21>20)``` will return ```TRUE```. This is useful for finding data where only one condition must met. 
+The ```^``` is the XOR operator and compares operands and returns ```TRUE``` if only one operand is true but returns ```FALSE``` if both are true or both are false. Example: ```('bob' == 'joe') ^ (21>20)``` will return ```TRUE```. This is useful for finding data where only one condition must be met. 
 
 ## 7. 
-The ```.loc``` gets information by using its label, while ```.iloc``` gets information from its integer position. Example: ```data_asia.loc[11]``` and ```data_asia.iloc[[1,2,3,4,5,6,7],[1,2,3]]```
+The ```.loc``` gets information by using its label, while ```.iloc``` gets information from its integer position. Example: ```data_asia.loc[11]``` and ```data_asia.iloc[[1,2,3,4,5,6,7],[1,2,3]]```. This gives all data from a series of consecutive columns ```data_asia.iloc[:, 0:5]```
 
 ## 8. 
 An API stands for Application Programming Interface. It is used to access data by send and get requests for data. Here is an example:
