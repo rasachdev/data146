@@ -71,7 +71,7 @@ df = pd.read_csv(file_name)
 ```
 
 ## 9. 
-The ```.apply()``` is a method where a function gets inputted and applied to all values in the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()```. The ```.apply()``` is the preferred approach because cleaner, simpler, and more efficient as we don'y have to rewrite functions and we can use it once. 
+The ```.apply()``` is a method where a function gets inputted and applied to all values in the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()``` or write  a loop. The ```.apply()``` is the preferred approach because cleaner, simpler, and more efficient as we don't have to rewrite functions and we can use it once. 
 
 ## 10. 
 An alterative approach to ```.iloc``` is to simply print the columns that are wanted like so: ```print(gapmind_data[['country', 'year', 'pop']])```. 
