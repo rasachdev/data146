@@ -6,5 +6,5 @@
 
 ## Projects
 
-1. [Project 1](project1.md'deletethis')
+1. [Project 1](project1.md)
 2. Project 2
