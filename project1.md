@@ -9,7 +9,7 @@ A data frame is like a chart with multiple rows and columns of information that 
 path_to_data = 'gapminder.tsv'
 data = pd.read_csv(path_to_data, sep='\t')
 ``` 
-This shows how to read a file and import it into the work session. Specificying an arguement within the ```read()``` function is significant because in the example about the data is a ```.tsv```, so it is tab separated, thus needing to add ```sep='\t')``` into the ```read_csv()``` part.
+This shows how to read a file and import it into the work session. Specificying an arguement within the ```read()``` function is significant because in the example about the data is a ```.tsv```, so it is tab separated, thus needing to add ```sep='\t')``` into the ```read_csv()``` part. Alternate terminology for decribing rows and columns is index and series. 
 
 Example of data frame I created from the code snippet above:
 
