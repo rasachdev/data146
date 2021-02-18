@@ -1,7 +1,7 @@
 # Project 1
 
 ## 1. 
-A package is collection which contains a ton of modules which have certain capabilities. A library is essentially a bunch of useful functions that can be used whenever and perform common tasks. In order to use a package you have to first install the package from the interpreter (in Pycharm, click on Python Interpreter then the + sign and install the package wanted) and then import it into your workspace. ```import numpy as np``` or ```import pandas as pd``` or ```from datetime import datetime```are examples we have used in class. By importing pandas as 'pd' ('pd' is the alias), the alias allows for cleaner, simpler, and shorter code. 
+A package is collection which contains a ton of modules which have certain capabilities. A library is essentially a bunch of useful functions that can be used whenever and perform common tasks. In order to use a package you have to first install the package from the interpreter (in Pycharm, click on Python Interpreter and then the + sign and install the package wanted) and then import it into your workspace. ```import numpy as np``` or ```import pandas as pd``` or ```from datetime import datetime```are examples we have used in class. By importing pandas as 'pd' ('pd' is the alias), the alias allows for cleaner, simpler, and shorter code. 
 
 ## 2. 
 A data frame is like a chart with multiple rows and columns of information that can be sifted through. The Pandas library is useful for working with data frames. To read a file from its remote location you can use the ```.read()``` command. Example:
