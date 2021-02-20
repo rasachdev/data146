@@ -71,7 +71,7 @@ df = pd.read_csv(file_name)
 ```
 
 ## 9. 
-The ```.apply()``` is a method where a function gets inputted and applied to all values in the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()``` or write  a loop. The ```.apply()``` is the preferred approach because cleaner, simpler, and more efficient as we don't have to rewrite functions and we can use it once. 
+The ```.apply()``` is a method where a function gets inputted and applied to all values in the data frame. Using ```.apply()``` is an alternative to  ```.iterrows()``` to write  a loop. The ```.apply()``` is the preferred approach because cleaner, simpler, and more efficient as we don't have to write a loop. 
 
 ## 10. 
 An alterative approach to ```.iloc``` is to simply print the columns that are wanted like so: ```print(gapmind_data[['country', 'year', 'pop']])```. A way to select, filter and assign a subset number of variables to a new data frame is to do something like this (example is very low tech): ```newframe = data[data['continent']=='Asia']```. We can also index and slice like this: ```data_asia[data_asia.columns[1:5]]```
