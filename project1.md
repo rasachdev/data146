@@ -4,12 +4,12 @@
 A package is collection which contains a ton of modules which have certain capabilities. A library is essentially a bunch of useful functions that can be used whenever and perform common tasks. In order to use a package you have to first install the package from the interpreter (in Pycharm, click on Python Interpreter and then the + sign and install the package wanted) and then import it into your workspace. ```import numpy as np``` or ```import pandas as pd``` or ```from datetime import datetime```are examples we have used in class. By importing pandas as 'pd' ('pd' is the alias), the alias allows for cleaner, simpler, and shorter code. 
 
 ## 2. 
-A data frame is like a chart with multiple rows and columns of information that can be sifted through. The Pandas library is useful for working with data frames. To read a file from its remote location you can use the ```.read()``` command. Example:
+A data frame is like a chart with multiple rows and columns of information that can be sifted through. The Pandas library is useful for working with data frames. To read a file from its remote location you can use the ```.read_csv()``` command. Example:
 ```
 path_to_data = 'gapminder.tsv'
 data = pd.read_csv(path_to_data, sep='\t')
 ``` 
-This shows how to read a file and import it into the work session. Specificying an arguement within the ```read()``` function is significant because in the example about the data is a ```.tsv```, so it is tab separated, thus needing to add ```sep='\t')``` into the ```read_csv()``` part.  
+This shows how to read a file and import it into the work session. Specificying an arguement within the ```read()``` function is significant because in the example about the data is a ```.tsv```, so it is tab separated, thus needing to add the ```sep='\t'``` argument into the ```read_csv()``` part.  
 
 Example of data frame I created from the code snippet above:
 
@@ -17,7 +17,7 @@ Example of data frame I created from the code snippet above:
 
 ![](gapminderdescribe.PNG)
 
-The description of data can be seen by ```data.describe()``` or ```data.info()```. The number of rows and columns can be determined by ```data.shape```. Columns can also be seen by ```data.columns```. Alternate terminology for decribing rows and columns is index and series.
+The description of data can be seen by ```data.describe()``` or ```data.info()```. The number of rows and columns can be determined by ```data.shape```. Columns can also be seen by ```data.columns```. Alternate terminology for decribing rows and columns is index and series or values and outcomes.
 
 ## 3. 
 The ```year``` variable exhibits regular intervals of 5 years starting with 1952. Adding data from 2012 and 2017 would make it more current. 284 new outcomes would be added to the data frame; 142 for each year added. 
