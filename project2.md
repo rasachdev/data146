@@ -24,3 +24,8 @@ Mean: 0.909
 Median: 0.933
 
 ### Right Skewed
+![](right.PNG)
+
+Mean: 0.093
+
+Median: 0.070
