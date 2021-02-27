@@ -16,4 +16,7 @@ Mean: 0.496
 Median: 0.499
 
 
-### Normally Distributed
+### Left Skewed
+
+
+### Right Skewed
