@@ -7,3 +7,4 @@ Nominal data is data that is categorical. Examples of nominal data are countries
 
 A model of my own construction is a randomly selected group of people which I would to run in a 5k race. Before the race I would ask for people's ages and their genders. Their ages would be the continuous data. Their genders would be the nominal data. Their placing at the end of completing the 5K would be the ordinal data.
 
+## 2.
