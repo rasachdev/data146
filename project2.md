@@ -1,4 +1,4 @@
-# Project 1
+# Project 2
 
 ## 1. 
 Continuous data is data that keeps changing or keeps updating. An example of continuous data would be a person's age or a person's height
