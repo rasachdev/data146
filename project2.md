@@ -32,5 +32,6 @@ Median: 0.070
 
 ## 3.
 ### Raw Data
+![](rawlifeexp.PNG)
 
 ### Log Transformation Data
