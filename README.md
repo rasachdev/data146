@@ -2,7 +2,7 @@
 
 ## Informal Exercises
 
-1. [Exercise 1: Gapminder](exercise1.md)
+1. [Exercise 1](exercise1.md)
 
 ## Projects
 
