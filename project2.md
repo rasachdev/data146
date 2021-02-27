@@ -11,5 +11,9 @@ A model of my own construction is a randomly selected group of people which I wo
 ### Normally Distributed
 ![](normal.PNG)
 
-mean: 0.496
-median: 0.499
+Mean: 0.496
+
+Median: 0.499
+
+
+### Normally Distributed
