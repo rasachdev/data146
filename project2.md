@@ -15,6 +15,7 @@ Mean: 0.496
 
 Median: 0.499
 
+This distribution follows the bell curve
 
 ### Left Skewed Distribution
 ![](left.PNG)
