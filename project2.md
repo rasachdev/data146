@@ -31,7 +31,7 @@ Mean: 0.093
 Median: 0.070
 
 
-Looking at all the distributions, as the alpha value becomes larger, we can see that the bulk of the distribution shift more towrd the right and as the beta becomes smaller, we can see that the distribution moves more toward the left. 
+Looking at all the distributions, as the alpha value becomes larger, we can see that the bulk of the distribution shift more toward the right and as the beta becomes smaller, we can see that the distribution moves more toward the left. 
 
 ## 3.
 ### Raw Data
@@ -40,7 +40,7 @@ Looking at all the distributions, as the alpha value becomes larger, we can see 
 ### Log Transformation Data
 ![](loglifeexp.PNG)
 
-Of the two resulting plots, the log transformation data plot best communicates the change in life expectancy amongst all of the countries from 1952 to 2007. We are able to clearly see the differences between the two years with the overlapping histogram produced with the log transformation. There is an upward trend that is detectable. The first data shows no real trend as opposed to the log transformation data. And we can also see the 
+Of the two resulting plots, the log transformation data plot best communicates the change in life expectancy amongst all of the countries from 1952 to 2007. We are able to clearly see the differences between the two years with the overlapping histogram produced with the log transformation. There is an upward trend that is detectable for life expectancy. The first data makes it hard to see the trend as opposed to the log transformation data because we can see it on a better scale. The raw data is more spread out, having variance, so the log transformation gives a better measure of it all. 
 
 ## 4.
 ### Raw Box & Whisker
@@ -49,4 +49,4 @@ Of the two resulting plots, the log transformation data plot best communicates t
 ### Log Transformation Box & Whisker
 ![](logbox.PNG)
 
-Of the two resulting plots, the log transformation box and whisker plot clearly best communicates the change in population amongst all of these countries from 1952 to 2007. We are able to clearly see the boxplots and their values on the log transformation plot which we are unable to see on the raw data plot. It is way more spread out and readable for us to clearly analyze the data. The first plot is way too squished together with large outliers to see anything; the large outliers deviate remarkably from the mean and median. The log transformation reduced the difference between the mean and median.  
+Of the two resulting plots, the log transformation box and whisker plot clearly best communicates the change in population amongst all of these countries from 1952 to 2007. We are able to clearly see the boxplots and their values on the log transformation plot which we are unable to see on the raw data plot. It is way more spread out and readable for us to clearly analyze the data. The first plot is way too squished together and tiny with large outliers to see anything; the large outliers deviate remarkably from the mean and median. The log transformation reduced the difference between the outliers, mean, and median.  
