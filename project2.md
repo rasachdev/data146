@@ -37,7 +37,7 @@ Median: 0.070
 ### Log Transformation Data
 ![](loglifeexp.PNG)
 
-Of the two resulting plots, the log transformation data plot best communicates the change in life expectancy amongst all of the countries from 1952 to 2007. We are able to clearly see the differences between the two years with the overlapping histogram produced with the log transformation. 
+Of the two resulting plots, the log transformation data plot best communicates the change in life expectancy amongst all of the countries from 1952 to 2007. We are able to clearly see the differences between the two years with the overlapping histogram produced with the log transformation. There is an upward trend that is detectable.  
 
 ## 4.
 ### Raw Box & Whisker
@@ -46,4 +46,4 @@ Of the two resulting plots, the log transformation data plot best communicates t
 ### Log Transformation Box & Whisker
 ![](logbox.PNG)
 
-Of the two resulting plots, the log transformation box and whisker plot clearly best communicates the change in population amongst all of these countries from 1952 to 2007. We are able to clearly see the boxplots and their values on the log transformation plot and are unable to on the raw data plot. It is way more spread out for us to clearly analyze the data. 
+Of the two resulting plots, the log transformation box and whisker plot clearly best communicates the change in population amongst all of these countries from 1952 to 2007. We are able to clearly see the boxplots and their values on the log transformation plot and are unable to on the raw data plot. It is way more spread out for us to clearly analyze the data. The first plot is way too squished together with large outliers. 
