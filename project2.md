@@ -30,7 +30,8 @@ Mean: 0.093
 
 Median: 0.070
 
-As the alpha value becomes larger, we can see that the bulk of the distribution shift more towrd the right and as the beta becomes smaller, we can see that the distribution moves more toward the left. 
+
+Looking at all the distributions, as the alpha value becomes larger, we can see that the bulk of the distribution shift more towrd the right and as the beta becomes smaller, we can see that the distribution moves more toward the left. 
 
 ## 3.
 ### Raw Data
