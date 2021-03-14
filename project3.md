@@ -12,6 +12,12 @@ With  standardized data in the ridge regression model, the training score was 0.
 ## 4.
 For the Charleston Actual Price dataset, I created 3 the same previous 3 models just with the new data. 
 
+The linear regression model's training score was 0.004 and testing score was -0.029 with 10 folds. 
+
+With standardizing the features, the linear regression model's training score was 0.019 and testing score was -0.019, with 10 folds.
+
+With  standardized data in the ridge regression model, the training score was 0.019 and testing score was 0.012 with 10 folds.
+
 ## 5.
 
 
