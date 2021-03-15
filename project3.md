@@ -17,9 +17,15 @@ The linear regression model's training score was 0.004 and testing score was -0.
 In comparison to the Charleston Asking Price dataset, the Charleston Actual Price dataset less of the training data is explained by the model because 0.004 is less than 0.019. 
 
 ## 5.
-For the Charleston Actual Price dataset, I added the zip code variables tot he data and created 3 the same previous 3 models with the new data.
+For the Charleston Actual Price dataset, I added the zip code variables to the data and created 3 the same previous 3 models with the new data.
 
-FIX THE NUMBERS: The linear regression model's training score was 0.339 and testing score was 0.248 with 10 folds. With standardizing the features, the linear regression model's training score was 0.004 and testing score was -0.025, with 10 folds. With standardized data in the ridge regression model, the training score was 0.004 and testing score was -0.009, with 10 folds.
+The linear regression model's training score was 0.339 and testing score was 0.248 with 10 folds. With standardizing the features, the linear regression model's training score was 0.339 and testing score was -37102697289516817842176.000, with 10 folds. With standardized data in the ridge regression model, the training score was 0.334 and testing score was 0.275, with 10 folds.  
+
+Similarly, for the Charleston Asking Price dataset, I added the zip code variables to the data and created 3 the same previous 3 models with the new data.
+
+The linear regression model's training score was 0.281 and testing score was 0.246 with 10 folds. With standardizing the features, the linear regression model's training score was 0.281 and testing score was 0.209, with 10 folds. With standardized data in the ridge regression model, the training score was 0.280 and testing score was 0.254, with 10 folds.
+
+By adding the zip codes into each of the dataset's features, I was able to get betting training and testing scores. More the data was explaiend by the results proving to be more useful rather than just using beds, bath, and square feet.
 
 ## 6.
 
