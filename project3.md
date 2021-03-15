@@ -14,18 +14,14 @@ For the Charleston Actual Price dataset, I created 3 the same previous 3 models 
 
 The linear regression model's training score was 0.004 and testing score was -0.029 with 10 folds. With standardizing the features, the linear regression model's training score was 0.004 and testing score was -0.025, with 10 folds. With standardized data in the ridge regression model, the training score was 0.004 and testing score was -0.009, with 10 folds.
 
-In comparison to the Charleston Asking Price dataset, the Charleston Actual Price dataset less of the training data is explained by the model because 0.004 is less than 0.019. 
+In comparison to the Charleston Asking Price dataset, the Charleston Actual Price dataset less of the training data is explained by the model because 0.004 is less than 0.019. The training and testing scores are low so the model's aren't explaining much of the data. 
 
 ## 5.
-For the Charleston Actual Price dataset, I added the zip code variables to the data and created 3 the same previous 3 models with the new data.
+For the Charleston Actual Price dataset, I added the zip code variables to the data and created 3 the same previous 3 models with the new data. The linear regression model's training score was 0.339 and testing score was 0.248 with 10 folds. With standardizing the features, the linear regression model's training score was 0.339 and testing score was -37102697289516817842176.000, with 10 folds. With standardized data in the ridge regression model, the training score was 0.334 and testing score was 0.275, with 10 folds.  
 
-The linear regression model's training score was 0.339 and testing score was 0.248 with 10 folds. With standardizing the features, the linear regression model's training score was 0.339 and testing score was -37102697289516817842176.000, with 10 folds. With standardized data in the ridge regression model, the training score was 0.334 and testing score was 0.275, with 10 folds.  
+Similarly, for the Charleston Asking Price dataset, I added the zip code variables to the data and created 3 the same previous 3 models with the new data. The linear regression model's training score was 0.281 and testing score was 0.246 with 10 folds. With standardizing the features, the linear regression model's training score was 0.281 and testing score was 0.209, with 10 folds. With standardized data in the ridge regression model, the training score was 0.280 and testing score was 0.254, with 10 folds.
 
-Similarly, for the Charleston Asking Price dataset, I added the zip code variables to the data and created 3 the same previous 3 models with the new data.
-
-The linear regression model's training score was 0.281 and testing score was 0.246 with 10 folds. With standardizing the features, the linear regression model's training score was 0.281 and testing score was 0.209, with 10 folds. With standardized data in the ridge regression model, the training score was 0.280 and testing score was 0.254, with 10 folds.
-
-By adding the zip codes into each of the dataset's features, I was able to get betting training and testing scores. More the data was explaiend by the results proving to be more useful rather than just using beds, bath, and square feet.
+By adding the zip codes into each of the dataset's features, I was able to get betting training and testing scores. More the data was explained by the results proving to be more useful rather than just using beds, bath, and square feet. In comparison to the non-zip code data, the models with zip codes explain a more about of the data significatly. It is clearly seen by looking at the training and testing data.
 
 ## 6.
-
+The model that produced the best results and did a better job with predicting the standardized features linear regression model. 
