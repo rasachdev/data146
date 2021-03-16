@@ -24,4 +24,4 @@ Similarly, for the Charleston Asking Price dataset, I added the zip code variabl
 By adding the zip codes into each of the dataset's features, I was able to get betting training and testing scores. More the data was explained by the results proving to be more useful rather than just using beds, bath, and square feet. In comparison to the non-zip code data, the models with zip codes explain a more about of the data significatly. It is clearly seen by looking at the training and testing data.
 
 ## 6.
-The model that produced the best results and did a better job with predicting was the standardized features linear regression model. 
+The model that produced the best results and did a better job with predicting was the standardized features linear regression model. The data resulted in the highest training and testing data out of all the models or even known as the internal and external validity. But with the training and testing scores being so low, the model is underfit and is not perfect. A perfect model would have scores of 1, which only seems possible in an ideal world. 
