@@ -1,10 +1,10 @@
 # Welcome To My DATA 146 Homework Index
-
-## Informal Exercises
+## Reeva Sachdev
+### Informal Exercises
 
 1. [Exercise 1](exercise1.md)
 
-## Projects
+### Projects
 
 1. [Project 1](project1.md)
 2. [Project 2](project2.md)
