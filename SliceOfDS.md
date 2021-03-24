@@ -8,13 +8,19 @@ Neural networks inckude inlear algebra
 kera = pythin library  that does linear algebra. does vectorized operations
 Input passes through hidden layer
 
-Convolutional Neurla networks. Example of putting tomato into a vector because its made up of color bands. Identify important features of the image and apply weights to the features. Cold also split by the colors like in the photo of hte tomato split it b reg green and blue. the top box didnt have any red
+Convolutional Neural networks. Example of putting tomato into a vector because its made up of color bands. Identify important features of the image and apply weights to the features. Cold also split by the colors like in the photo of hte tomato split it b reg green and blue. the top box didnt have any red
 
 Tranfer Learning - used to allow us to take wights trained to recognixe images and apply them to our own problem. Apply them and use them to new images. 
 Example she used: predict road quality from satelite imagery. Used model to fit satelite images to the actual road qualityt from the app. 
 Decided to train 3 dfferent tranfer learning model from Keras. She used her own classifier
 advantages of useing pre-trained model: faster bc using weights tha have been pre-treaned for other images. If you used weights that are pretty clode to what you want them to be, you already have ana dvantage to solving the problem. Using weights already made
-If data set is copletely different, Use Strtgey 1 because youll apply weights bc not many images are weights: Strategy 1: train fhte enitre model
+If data set is copletely different, Use Strtgey 1 because youll apply weights bc not many images are weights: Strategy 1: train the enitre model
 Strateg 2: trainging some laters and leave the othes frozen
 Strategy 3: freeeze the convultion vase
 overfittign: very good at predinding trainging but bad at testing because its so well trained to the trainging data
+
+Stacked Generalization
+way to imporve model bc you take inut from many models that use many features and vote on the label for the image. You can also learn to trust a specific model and trust that outcome. 
+Use predictons into inputs as model that predicts
+Developers Student Club - Join to impoelemet your own script. Use Keras model to predict cancer cells
+Use dropouts to prevent overfitting
