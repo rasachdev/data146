@@ -1,8 +1,7 @@
 # Slice of Data Science 3/24/2021 - Clare Heinbaugh
-Clare is sophomore and 1693 scholar at William and Mary.
-This Slice of Data Science lesson was on transfer learning, stacked generalization, and keras. 
-Neural network is one tpe of mathcine learning model to classify data. There is a hidden layer, input layer, and output layer. The example used was a naureal network on spotify that could predict the genre. 
-Way to build network, each row is an observation and expand it into a verctor and apply weights and updating weights to predict power of model better. If you want to know how good model, you watnt to do a train test split. you can see how accurate it is by applying data you didn't train the data on. 
+Clare is sophomore and 1693 scholar at William and Mary. Her presentation in the Slice of Data Science lesson was on transfer learning, stacked generalization, and Keras. Throuhgout the meeting, Clare used many examples of her own work with many of these topics. 
+
+The first topic gone over was Neural networks. Neural networks are one type of machine learning model that is used to classify data. Ina neural network there is a hidden layer, input layer, and output layer. The example Clare used was a neural network on spotify that could predict the genre of a song. The way to build network is that each row is an observation and expand it into a vector and apply weights and updating weights to predict power of model better. If you want to know how good model, you want to do a train-test-split. That way you can see how accurate it is by applying data you didn't train the data on. 
 
 Neural networks inckude inlear algebra
 kera = pythin library  that does linear algebra. does vectorized operations
@@ -26,3 +25,5 @@ Developers Student Club - Join to impoelemet your own script. Use Keras model to
 Use dropouts to prevent overfitting
 
 DataAugmentation - manupultae images to hepl model be better at recognizing things. Like if you have pictures of horse always facing left, you should change it to face right in order to made sure the model has seen it before. It helps the model overall. 
+
+Overall, I thought the talk was really informative. I got good insight on different future topics I am likely to learn in future Data Science classes. There is 
