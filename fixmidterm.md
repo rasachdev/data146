@@ -1,7 +1,8 @@
 # Midterm Corrections
 
 ## 24 - If we had looked at MSE instead of R2 when doing our Lasso regression (question 20), what would we have determined the optimal value for alpha to be? Enter your answer to 5 decimal places, for example: 0.12345
-``` def DoKFold(model, X, y, k, standardize=False, random_state=146):
+``` 
+def DoKFold(model, X, y, k, standardize=False, random_state=146):
     import numpy as np
     from sklearn.model_selection import KFold
     kf = KFold(n_splits=k, shuffle=True, random_state=random_state)
@@ -37,5 +38,6 @@
         train_mse.append(np.mean((ytrain - ytrain_pred) ** 2))
         test_mse.append(np.mean((ytest - ytest_pred) ** 2))
         
-    return train_scores, test_scores, train_mse, test_mse```
+    return train_scores, test_scores, train_mse, test_mse
+    ```
     wf
