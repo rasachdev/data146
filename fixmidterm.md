@@ -43,3 +43,8 @@ def DoKFold(model, X, y, k, standardize=False, random_state=146):
 ```
 
 In order to answer the question  to find the optimal alpha value when looking at the Mean Squared Error(MSE) rather than the R^2 value in the Lasso Regression.
+```
+idx = np.argmin(las_te_mse)
+print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[idx],)
+```
+The optimal alpha value for the 
