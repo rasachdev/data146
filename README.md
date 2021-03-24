@@ -4,6 +4,7 @@
 ### Informal Exercises
 
 1. [Exercise 1](exercise1.md)
+2. [Slice of Data Science Analysis](SliceOfDS.md)
 
 ### Projects
 
