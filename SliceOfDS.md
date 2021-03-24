@@ -1,4 +1,5 @@
 # Slice of Data Science 3/24/2021 - Talk By Clare Heinbaugh
+## Reeva Sachdev
 Clare is sophomore and 1693 scholar at William and Mary. Her presentation in the Slice of Data Science lesson was on transfer learning, stacked generalization, and Keras. Throuhgout the meeting, Clare used many examples of her own work with many of these topics. 
 
 The first topic gone over was Neural networks. Neural networks are one type of machine learning model that is used to classify data. Ina neural network there is a hidden layer, input layer, and output layer. The example Clare used was a neural network on spotify that could predict the genre of a song. The way to build network is that each row is an observation and expand it into a vector and apply weights and updating weights to predict power of model better. If you want to know how good model, you want to do a train-test-split. That way you can see how accurate it is by applying data you didn't train the data on. 
