@@ -47,4 +47,4 @@ In order to answer the question  to find the optimal alpha value when looking at
 idx = np.argmin(las_te_mse)
 print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[idx],)
 ```
-The optimal alpha value for the 
+The optimal alpha value for the MSE in the Lasso Regression is 0.00186
