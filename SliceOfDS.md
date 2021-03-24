@@ -1,4 +1,4 @@
-# Slice of Data Science 3/24/2021 - Talk By Clare Heinbaugh
+# Slice of Data Science 3/24/2021 - Talk From Clare Heinbaugh
 ## Reeva Sachdev
 Clare is sophomore and 1693 scholar at William and Mary. Her presentation in the Slice of Data Science lesson was on transfer learning, stacked generalization, and Keras. Throuhgout the meeting, Clare used many examples of her own work with many of these topics. 
 
