@@ -5,7 +5,7 @@
 
 1. [Exercise 1](exercise1.md)
 2. [Slice of Data Science Analysis](SliceOfDS.md)
-3. [Midterm Exam Corrections]()
+3. [Midterm Exam Corrections](fixmidterm.md)
 
 ### Projects
 
