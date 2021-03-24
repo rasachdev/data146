@@ -4,7 +4,7 @@
 ### Informal Exercises
 
 1. [Exercise 1](exercise1.md)
-2. [Slice of Data Science Analysis](SliceOfDS.md)
+2. [Slice of Data Science Analysis - 3/24/2021](SliceOfDS.md)
 3. [Midterm Exam Corrections](fixmidterm.md)
 
 ### Projects
