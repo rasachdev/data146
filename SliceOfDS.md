@@ -1,5 +1,5 @@
 # Slice of Data Science 3/24/2021 - Clare Heinbaugh
-Clare is sophomore and 1693 scholar at William and Mary. 
+Clare is sophomore and 1693 scholar at William and Mary.
 This Slice of Data Science lesson was on transfer learning, stacked generalization, and keras. 
 Neural network is one tpe of mathcine learning model to classify data. There is a hidden layer, input layer, and output layer. The example used was a naureal network on spotify that could predict the genre. 
 Way to build network, each row is an observation and expand it into a verctor and apply weights and updating weights to predict power of model better. If you want to know how good model, you watnt to do a train test split. you can see how accurate it is by applying data you didn't train the data on. 
@@ -24,3 +24,5 @@ way to imporve model bc you take inut from many models that use many features an
 Use predictons into inputs as model that predicts
 Developers Student Club - Join to impoelemet your own script. Use Keras model to predict cancer cells
 Use dropouts to prevent overfitting
+
+DataAugmentation - manupultae images to hepl model be better at recognizing things. Like if you have pictures of horse always facing left, you should change it to face right in order to made sure the model has seen it before. It helps the model overall. 
