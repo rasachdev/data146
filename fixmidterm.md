@@ -37,7 +37,5 @@
         train_mse.append(np.mean((ytrain - ytrain_pred) ** 2))
         test_mse.append(np.mean((ytest - ytest_pred) ** 2))
         
-    return train_scores, test_scores, train_mse, test_mse
-    ```
-    
-    
+    return train_scores, test_scores, train_mse, test_mse```
+    wf
