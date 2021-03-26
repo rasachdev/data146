@@ -72,6 +72,16 @@ np.round(np.corrcoef(X_df['MedInc'], y)[0][1]**2,2)
 The coefficient of determination turned out to be 0.47
 
 ## 18
+This question asks to perform a linear regression with a few requirements. The requirements are to standardize the data and perform a K-fold validation using: k=20, shuffle=True, random_state=146
+```
+k=20
+train_scores, test_scores, train_mse, test_mse = DoKFold(LR(),X,y,k, True)
+
+print(np.mean(train_scores), np.mean(test_scores))
+print(np.mean(train_mse), np.mean(test_mse))
+```
+Looking at the R2 value on the test folds, the value for that, to 5 decimal places, is 0.60198.  
+
 ## 19
 ## 20
 ## 21
