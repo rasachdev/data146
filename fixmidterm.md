@@ -83,6 +83,28 @@ print(np.mean(train_mse), np.mean(test_mse))
 Looking at the R2 value on the test folds, the value for that, to 5 decimal places, is 0.60198.  
 
 ## 19
+For this question, we looked a ridge regression using the same settings for K-fold validation as the previos question. 
+```
+rid_a_range = np.linspace(20, 30, 101)
+
+rid_tr = []
+rid_te = []
+rid_tr_mse = []
+rid_te_mse = []
+
+for a in rid_a_range:
+    mdl = Ridge(alpha=a)
+    train, test, train_mse, test_mse = DoKFold(mdl,X,y,k, True)
+    
+    rid_tr.append(np.mean(train))
+    rid_te.append(np.mean(test))
+    rid_tr_mse.append(np.mean(train_mse))
+    rid_te_mse.append(np.mean(test_mse))
+
+idx = np.argmax(rid_te)
+print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[idx],)
+```
+
 ## 20
 ## 21
 ## 22
