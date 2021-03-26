@@ -1,4 +1,5 @@
 # Midterm Corrections
+## Setting it up
 A. I imported all of the libraries that I would need in order to do this. 
 B. Here is the DoKFold function:
 ```
