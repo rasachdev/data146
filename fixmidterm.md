@@ -157,7 +157,7 @@ print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[id
 What I get is a different optimal alpha value when looking at MSE rather than R<sup>2</sup> for the Ridge regression. The optimal alpha value, in this case, is 26.1. That is different from the 25.8 I previously got from question 19. 
 
 ## 24
-In order to answer the question, we need to find the optimal alpha value when looking at the Mean Squared Error(MSE) rather than the R<sup>2</sup> value in the Lasso regression.
+Again, we are taking a look at MSE instead of R<sup>2</sup> but instead with the Lasso regression previously. What we changed again is this line of code ```idx = np.argmin(las_te_mse)``` because we want ```np.argmin()``` rather than ```np.argmax()```. Mean squared error (MSE) should be minimized while the R<sup>2</sup> value should be maximized.
 ```
 idx = np.argmin(las_te_mse)
 print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[idx],)
