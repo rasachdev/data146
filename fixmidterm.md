@@ -83,7 +83,7 @@ print(np.mean(train_mse), np.mean(test_mse))
 Looking at the R2 value on the test folds, the value for that, to 5 decimal places, is 0.60198.  
 
 ## 19
-For this question, we looked a ridge regression using the same settings for K-fold validation as the previos question. 
+For this question, we looked a ridge regression using the same settings for K-fold validation as the previous question. I created objects to append my calculated mean values from my ridge training data and ridge testing data. I also created objects to append my calculated mean MSE values from my ridge training data and my ridge testing data. I looked at 101 equally spaced values between 20 and 30 for alpha. 
 ```
 rid_a_range = np.linspace(20, 30, 101)
 
@@ -104,6 +104,7 @@ for a in rid_a_range:
 idx = np.argmax(rid_te)
 print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[idx],)
 ```
+Based on that, I was able to get a mean R2 value of the test folds of 0.60201, with the optimal value of alpha in that range. 
 
 ## 20
 ## 21
