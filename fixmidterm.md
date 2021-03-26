@@ -1,7 +1,6 @@
 # Midterm Corrections
-
-## 24 - If we had looked at MSE instead of R<sup>2</sup> when doing our Lasso regression (question 20), what would we have determined the optimal value for alpha to be? Enter your answer to 5 decimal places, for example: 0.12345
-This is the corrected DoKFold function:
+A. I imported all of the libraries that I would need in order to do this. 
+B. Here is the DoKFold function:
 ```
 def DoKFold(model, X, y, k, standardize=False, random_state=146):
     import numpy as np
@@ -40,6 +39,30 @@ def DoKFold(model, X, y, k, standardize=False, random_state=146):
         test_mse.append(np.mean((ytest - ytest_pred) ** 2))
         
     return train_scores, test_scores, train_mse, test_mse
+```
+C. I imported the California Housing data
+D. I set my features as X, created a names object as X_names, and set up y as my target
+
+## 15
+For this question, I looked at the correlations between the 4 mulitple choice answers of MedInc, AveRooms, AveBedrms, and HouseAg. With this code:
+```
+Xcopy = X_df.copy()
+Xcopy['y'] = y
+Xcopy.corr()
+```
+The correlations were MedInc = 0.688075, AveRooms = 0.151948, AveBedrms = 0.046701, and HouseAg = 0.105623. And according to these correlations, the feature most strongly correlated to with the target is MedInc. 
+## 16
+## 17
+## 18
+## 19
+## 20
+## 21
+## 22
+## 23
+## 24 - If we had looked at MSE instead of R<sup>2</sup> when doing our Lasso regression (question 20), what would we have determined the optimal value for alpha to be? Enter your answer to 5 decimal places, for example: 0.12345
+This is the corrected DoKFold function:
+```
+
 ```
 
 In order to answer the question  to find the optimal alpha value when looking at the Mean Squared Error(MSE) rather than the R<sup>2</sup> value in the Lasso Regression.
