@@ -107,6 +107,29 @@ print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[id
 Based on that, I was able to get a mean R2 value of the test folds of 0.60201, with the optimal value of alpha in that range. 
 
 ## 20
+For this question, we looked a lasso regression using the same settings for K-fold validation as the previous two questions. I, once again, created objects to append my calculated mean values from my lasso training data and lasso testing data. I also created objects to append my calculated mean MSE values from my lasso training data and my lasso testing data. I looked at 101 equally spaced values between 0.001 and 0.003 for alpha. Essentially, it was almost the same work as the ridge regression. 
+```
+las_a_range = np.linspace(0.001, 0.003, 101)
+
+las_tr = []
+las_te = []
+las_tr_mse = []
+las_te_mse = []
+
+for a in las_a_range:
+    mdl = Lasso(alpha=a)
+    train, test, train_mse, test_mse = DoKFold(mdl,X,y,k, True)
+    
+    las_tr.append(np.mean(train))
+    las_te.append(np.mean(test))
+    las_tr_mse.append(np.mean(train_mse))
+    las_te_mse.append(np.mean(test_mse))
+
+idx = np.argmax(las_te)
+print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[idx],)
+```
+Based on that, I was able to get a mean R2 value of the test folds of 0.60213, with the optimal value of alpha in that range.
+
 ## 21
 ## 22
 ## 23
