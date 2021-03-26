@@ -53,7 +53,7 @@ Xcopy = X_df.copy()
 Xcopy['y'] = y
 Xcopy.corr()
 ```
-The correlations were MedInc = 0.688075, AveRooms = 0.151948, AveBedrms = 0.046701, and HouseAg = 0.105623. And according to these correlations, the feature most strongly correlated with the target is MedInc. 
+The correlations were MedInc = 0.688075, AveRooms = 0.151948, AveBedrms = -0.046701, and HouseAg = 0.105623. And according to these correlations, the feature most strongly correlated with the target is MedInc. 
 
 ## 16
 For this question, I looked at the correlations between the 4 mulitple choice answers of MedInc, AveRooms, AveBedrms, and HouseAg once the features were standardized. First I standardized the features and created a data frame with those standardized features. Then I looked at the correlations with the target that each had. 
