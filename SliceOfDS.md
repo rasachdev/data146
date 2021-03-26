@@ -6,7 +6,7 @@ The first topic gone over was Neural networks. Neural networks are one type of m
 
 When working with neural networks, there is a lot of linear algebra included. There is a python library called Keras. The Keras python library does linear algebra. It also does vectorized operations. And with Neural networks there is an input which passes through the hidden layer.
 
-Within neural networks, convolutional neural networks was talked about. Convolutional neural networks is a class of neural networks which is most commonly applied to analyzing visual imagery. The example Clase used was of an image of a tomato. putting tomato into a vector because its made up of color bands. Identify important features of the image and apply weights to the features. Cold also split by the colors like in the photo of hte tomato split it b reg green and blue. the top box didnt have any red
+Within neural networks, convolutional neural networks was talked about. Convolutional neural networks is a class of neural networks which is most commonly applied to analyzing visual imagery. The example Clare used was of an image of a tomato. putting tomato into a vector because its made up of color bands. Identify important features of the image and apply weights to the features. Cold also split by the colors like in the photo of hte tomato split it b reg green and blue. the top box didnt have any red
 
 Tranfer Learning - used to allow us to take wights trained to recognixe images and apply them to our own problem. Apply them and use them to new images. 
 Example she used: predict road quality from satelite imagery. Used model to fit satelite images to the actual road qualityt from the app. 
