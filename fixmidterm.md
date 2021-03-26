@@ -1,6 +1,7 @@
 # Midterm Corrections
 ## Setting it up
 A. I imported all of the libraries that I would need in order to do this. 
+
 B. Here is the DoKFold function:
 ```
 def DoKFold(model, X, y, k, standardize=False, random_state=146):
@@ -42,6 +43,7 @@ def DoKFold(model, X, y, k, standardize=False, random_state=146):
     return train_scores, test_scores, train_mse, test_mse
 ```
 C. I imported the California Housing data
+
 D. I set my features as X, created a names object as X_names, and set up y as my target
 
 ## 15
