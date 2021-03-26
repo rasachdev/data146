@@ -1,6 +1,6 @@
 # Midterm Corrections
 ## Setting it up
-A. I imported all of the libraries that I would need in order to do this. 
+A. First, I imported all of the libraries that I would need in order to do this. 
 
 B. Here is the DoKFold function:
 ```
@@ -42,9 +42,9 @@ def DoKFold(model, X, y, k, standardize=False, random_state=146):
         
     return train_scores, test_scores, train_mse, test_mse
 ```
-C. I imported the California Housing data
+C. Next, I imported the California Housing data.
 
-D. I set my features as X, created a names object as X_names, and set up y as my target
+D. Then, I set my features as X, created a names object as X_names, and set up y as my target.
 
 ## 15
 In this question, I looked at the correlations between the 4 mulitple choice answers of MedInc, AveRooms, AveBedrms, and HouseAg. With this code:
@@ -82,7 +82,7 @@ train_scores, test_scores, train_mse, test_mse = DoKFold(LR(),X,y,k, True)
 print(np.mean(train_scores), np.mean(test_scores))
 print(np.mean(train_mse), np.mean(test_mse))
 ```
-Looking at the R2 value on the test folds, the value for that, to 5 decimal places, is 0.60198.  
+Looking at the R2 value on the test folds, the value for that, to 5 decimal places, is 0.60198 for the Linear regression.  
 
 ## 19
 For this question, we looked a Ridge regression using the same settings for K-fold validation as the previous question. I created objects to append my calculated mean values from my Ridge training data and Ridge testing data. I also created objects to append my calculated mean MSE values from my Ridge training data and my Ridge testing data. I looked at 101 equally spaced values between 20 and 30 for alpha. 
@@ -106,7 +106,7 @@ for a in rid_a_range:
 idx = np.argmax(rid_te)
 print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[idx],)
 ```
-Based on that, I was able to get a mean R<sup>2</sup> value of the test folds of 0.60201, with the optimal value of alpha in that range. 
+Based on that, I was able to get a mean R<sup>2</sup> value of the test folds of 0.60201, with the optimal value of alpha in that range for the Ridge regression. 
 
 ## 20
 For this question, we looked a Lasso regression using the same settings for K-fold validation as the previous two questions. I, once again, created objects to append my calculated mean values from my Lasso training data and Lasso testing data. I also created objects to append my calculated mean MSE values from my Lasso training data and my Lasso testing data. I looked at 101 equally spaced values between 0.001 and 0.003 for alpha. Essentially, it was almost the same work as the Ridge regression. 
@@ -130,7 +130,7 @@ for a in las_a_range:
 idx = np.argmax(las_te)
 print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[idx],)
 ```
-Based on that, I was able to get a mean R<sup>2</sup> value of the test folds of 0.60213, with the optimal value of alpha in that range.
+Based on that, I was able to get a mean R<sup>2</sup> value of the test folds of 0.60213, with the optimal value of alpha in that range for the Lasso regression.
 
 ## 21
 This question is focused on correlations and coefficients. It asks which of the models estimates the smallest coefficient for the variable that is least correlated in terms of their absolute value. The variable that is least correlated is AveOccup. So with the Linear, Ridge, and Lasso models, the absolute value of their coefficients are 0.03932626697814858, 0.03941257372893634, and 0.037618233645534585, respectively. And comparing all three of them, we can see that the Lasso regression has the smallest coefficient for the AveOccup variable. 
