@@ -45,7 +45,7 @@ C. I imported the California Housing data
 D. I set my features as X, created a names object as X_names, and set up y as my target
 
 ## 15
-For this question, I looked at the correlations between the 4 mulitple choice answers of MedInc, AveRooms, AveBedrms, and HouseAg. With this code:
+In this question, I looked at the correlations between the 4 mulitple choice answers of MedInc, AveRooms, AveBedrms, and HouseAg. With this code:
 ```
 Xcopy = X_df.copy()
 Xcopy['y'] = y
@@ -131,7 +131,11 @@ print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[id
 Based on that, I was able to get a mean R2 value of the test folds of 0.60213, with the optimal value of alpha in that range.
 
 ## 21
+This question is focused on correlations and coefficients. It asks which of the models estimates the smallest coefficient for the variable that is least correlated in terms of their absolute value. The variable that is least correlated is AveOccup. So with the linear, ridge, and lasso models, the absolute value of their coefficients are 0.03932626697814858, 0.03941257372893634, and 0.037618233645534585, respectively. And comparing all three of them, we can see that the lasso regression has the smallest coefficient for the AveOccup variable. 
+
 ## 22
+Again we are looking at correlations and coefficients. But this question asks which of the models estimates the smallest coefficient for the variable that is most correlated in terms of their absolute value. The variable that is most correlated is MedInc. So with the linear, ridge, and lasso models, the absolute value of their coefficients are 0.8296193042804432, 0.8288892465527583, and 0.8200140807502062, respectively. And comparing all three of them, we can see that the lasso regression has the smallest coefficient for the MedInc variable. 
+
 ## 23
 ## 24 - If we had looked at MSE instead of R<sup>2</sup> when doing our Lasso regression (question 20), what would we have determined the optimal value for alpha to be? Enter your answer to 5 decimal places, for example: 0.12345
 This is the corrected DoKFold function:
