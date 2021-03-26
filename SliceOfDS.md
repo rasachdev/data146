@@ -4,9 +4,7 @@ Clare is sophomore and 1693 scholar at William and Mary. Her presentation in the
 
 The first topic gone over was Neural networks. Neural networks are one type of machine learning model that is used to classify data. Ina neural network there is a hidden layer, input layer, and output layer. The example Clare talked  was a neural network on spotify that could predict the genre of a song. The way to build network is that each row is an observation and expand it into a vector and apply weights and updating weights to predict power of model better. If you want to know how good model, you want to do a train-test-split. That way you can see how accurate it is by applying data you didn't train the data on. I thought the spotify example was interesting because its something that pertains to college students because so many of us use it and so many of us listen to music. 
 
-Neural networks inckude inlear algebra
-kera = pythin library  that does linear algebra. does vectorized operations
-Input passes through hidden layer
+When working with Neural networks, there is a lot of linear algebra included. There is a python library called Keras. The Keras python library does linear algebra. It also does vectorized operations. And with Neural networks there is an input which passes through the hidden layer.
 
 Convolutional Neural networks. Example of putting tomato into a vector because its made up of color bands. Identify important features of the image and apply weights to the features. Cold also split by the colors like in the photo of hte tomato split it b reg green and blue. the top box didnt have any red
 
