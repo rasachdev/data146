@@ -149,24 +149,19 @@ lin.coef_[0], rid.coef_[0], las.coef_[0]
 ```
 
 ## 23
-Now we are taking a look at MSE instead of R<sup>2</sup> when doing our ridge regression previously. What we changed is this line of code ```idx = np.argmin(rid_te_mse)``` because we want ```np.argmin()``` rather than ```np.argmax()```. We want to minimize the mean squared error (MSE), rather than maximize the R<sup>2</sup> value. 
+Now we are taking a look at MSE instead of R<sup>2</sup> when doing our ridge regression previously. What we changed is this line of code ```idx = np.argmin(rid_te_mse)``` because we want ```np.argmin()``` rather than ```np.argmax()```. We want to minimize the mean squared error (MSE), rather than use maximize like when we maximized the R<sup>2</sup> value. 
 ```
 idx = np.argmin(rid_te_mse)
 print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[idx],)
 ```
-What I get is a different optimal alpha value when looking at MSE rather than R<sup>2</sup>. The optimal alpha value, in this case, is  26.1. That is different from the 25.8 I previously got from question 19. 
+What I get is a different optimal alpha value when looking at MSE rather than R<sup>2</sup> for the Ridge regression. The optimal alpha value, in this case, is 26.1. That is different from the 25.8 I previously got from question 19. 
 
 ## 24 - If we had looked at MSE instead of R<sup>2</sup> when doing our Lasso regression (question 20), what would we have determined the optimal value for alpha to be? Enter your answer to 5 decimal places, for example: 0.12345
-This is the corrected DoKFold function:
-```
-
-```
-
 In order to answer the question  to find the optimal alpha value when looking at the Mean Squared Error(MSE) rather than the R<sup>2</sup> value in the Lasso Regression.
 ```
 idx = np.argmin(las_te_mse)
 print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[idx],)
 ```
-The optimal alpha value for the MSE in the Lasso Regression is 0.00186
+The optimal alpha value for the MSE in the Lasso Regression is 0.00186. This optimal alpha value is the same as the optimal alpha value in question 20. 
 
 There were a few reasons why I went wrong. The first was my DoKFold function. 
