@@ -104,7 +104,7 @@ for a in rid_a_range:
 idx = np.argmax(rid_te)
 print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[idx],)
 ```
-Based on that, I was able to get a mean R2 value of the test folds of 0.60201, with the optimal value of alpha in that range. 
+Based on that, I was able to get a mean R<sup>2</sup> value of the test folds of 0.60201, with the optimal value of alpha in that range. 
 
 ## 20
 For this question, we looked a lasso regression using the same settings for K-fold validation as the previous two questions. I, once again, created objects to append my calculated mean values from my lasso training data and lasso testing data. I also created objects to append my calculated mean MSE values from my lasso training data and my lasso testing data. I looked at 101 equally spaced values between 0.001 and 0.003 for alpha. Essentially, it was almost the same work as the ridge regression. 
@@ -128,7 +128,7 @@ for a in las_a_range:
 idx = np.argmax(las_te)
 print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[idx],)
 ```
-Based on that, I was able to get a mean R2 value of the test folds of 0.60213, with the optimal value of alpha in that range.
+Based on that, I was able to get a mean R<sup>2</sup> value of the test folds of 0.60213, with the optimal value of alpha in that range.
 
 ## 21
 This question is focused on correlations and coefficients. It asks which of the models estimates the smallest coefficient for the variable that is least correlated in terms of their absolute value. The variable that is least correlated is AveOccup. So with the linear, ridge, and lasso models, the absolute value of their coefficients are 0.03932626697814858, 0.03941257372893634, and 0.037618233645534585, respectively. And comparing all three of them, we can see that the lasso regression has the smallest coefficient for the AveOccup variable. 
@@ -149,6 +149,13 @@ lin.coef_[0], rid.coef_[0], las.coef_[0]
 ```
 
 ## 23
+Now we are taking a look at MSE instead of R<sup>2</sup> when doing our ridge regression previously. What we changed is this line of code ```idx = np.argmin(rid_te_mse)``` because we want ```np.argmin()``` rather than ```np.argmax()```. We want to minimize the mean squared error (MSE), rather than maximize the R<sup>2</sup> value. 
+```
+idx = np.argmin(rid_te_mse)
+print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[idx],)
+```
+What I get is a different optimal alpha value when looking at MSE rather than R<sup>2</sup>. The optimal alpha value, in this case, is  26.1. That is different from the 25.8 I previously got from question 19. 
+
 ## 24 - If we had looked at MSE instead of R<sup>2</sup> when doing our Lasso regression (question 20), what would we have determined the optimal value for alpha to be? Enter your answer to 5 decimal places, for example: 0.12345
 This is the corrected DoKFold function:
 ```
