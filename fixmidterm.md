@@ -65,14 +65,14 @@ Xtransfy_df.corr()
 After standardizing the features, none of the correlations between any of the variables changed. They all were the same from the previous question, #15. 
 
 ## 17
-For this question, we performed a linear regression with the feature that was most correlated with the target in question 15. The feature was MedInc. 
+For this question, we performed a Linear regression with the feature that was most correlated with the target in question 15. The feature was MedInc. 
 ```
 np.round(np.corrcoef(X_df['MedInc'], y)[0][1]**2,2)
 ```
 The coefficient of determination turned out to be 0.47
 
 ## 18
-This question asks to perform a linear regression with a few requirements. The requirements are to standardize the data and perform a K-fold validation using: k=20, shuffle=True, random_state=146
+This question asks to perform a Linear regression with a few requirements. The requirements are to standardize the data and perform a K-fold validation using: k=20, shuffle=True, random_state=146
 ```
 k=20
 train_scores, test_scores, train_mse, test_mse = DoKFold(LR(),X,y,k, True)
@@ -83,7 +83,7 @@ print(np.mean(train_mse), np.mean(test_mse))
 Looking at the R2 value on the test folds, the value for that, to 5 decimal places, is 0.60198.  
 
 ## 19
-For this question, we looked a ridge regression using the same settings for K-fold validation as the previous question. I created objects to append my calculated mean values from my ridge training data and ridge testing data. I also created objects to append my calculated mean MSE values from my ridge training data and my ridge testing data. I looked at 101 equally spaced values between 20 and 30 for alpha. 
+For this question, we looked a Ridge regression using the same settings for K-fold validation as the previous question. I created objects to append my calculated mean values from my Ridge training data and Ridge testing data. I also created objects to append my calculated mean MSE values from my Ridge training data and my Ridge testing data. I looked at 101 equally spaced values between 20 and 30 for alpha. 
 ```
 rid_a_range = np.linspace(20, 30, 101)
 
@@ -107,7 +107,7 @@ print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[id
 Based on that, I was able to get a mean R<sup>2</sup> value of the test folds of 0.60201, with the optimal value of alpha in that range. 
 
 ## 20
-For this question, we looked a lasso regression using the same settings for K-fold validation as the previous two questions. I, once again, created objects to append my calculated mean values from my lasso training data and lasso testing data. I also created objects to append my calculated mean MSE values from my lasso training data and my lasso testing data. I looked at 101 equally spaced values between 0.001 and 0.003 for alpha. Essentially, it was almost the same work as the ridge regression. 
+For this question, we looked a Lasso regression using the same settings for K-fold validation as the previous two questions. I, once again, created objects to append my calculated mean values from my Lasso training data and Lasso testing data. I also created objects to append my calculated mean MSE values from my Lasso training data and my Lasso testing data. I looked at 101 equally spaced values between 0.001 and 0.003 for alpha. Essentially, it was almost the same work as the Ridge regression. 
 ```
 las_a_range = np.linspace(0.001, 0.003, 101)
 
@@ -131,7 +131,7 @@ print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[id
 Based on that, I was able to get a mean R<sup>2</sup> value of the test folds of 0.60213, with the optimal value of alpha in that range.
 
 ## 21
-This question is focused on correlations and coefficients. It asks which of the models estimates the smallest coefficient for the variable that is least correlated in terms of their absolute value. The variable that is least correlated is AveOccup. So with the linear, ridge, and lasso models, the absolute value of their coefficients are 0.03932626697814858, 0.03941257372893634, and 0.037618233645534585, respectively. And comparing all three of them, we can see that the lasso regression has the smallest coefficient for the AveOccup variable. 
+This question is focused on correlations and coefficients. It asks which of the models estimates the smallest coefficient for the variable that is least correlated in terms of their absolute value. The variable that is least correlated is AveOccup. So with the Linear, Ridge, and Lasso models, the absolute value of their coefficients are 0.03932626697814858, 0.03941257372893634, and 0.037618233645534585, respectively. And comparing all three of them, we can see that the Lasso regression has the smallest coefficient for the AveOccup variable. 
 ```
 print(X_names[5])
 lin = LR(); rid=Ridge(alpha=25.8); las = Lasso(alpha=0.00186)
@@ -140,7 +140,7 @@ lin.coef_[5], rid.coef_[5], las.coef_[5]
 ```
 
 ## 22
-Again we are looking at correlations and coefficients. But this question asks which of the models estimates the smallest coefficient for the variable that is most correlated in terms of their absolute value. The variable that is most correlated is MedInc. So with the linear, ridge, and lasso models, the absolute value of their coefficients are 0.8296193042804432, 0.8288892465527583, and 0.8200140807502062, respectively. And comparing all three of them, we can see that the lasso regression again has the smallest coefficient for the MedInc variable. 
+Again we are looking at correlations and coefficients. But this question asks which of the models estimates the smallest coefficient for the variable that is most correlated in terms of their absolute value. The variable that is most correlated is MedInc. So with the Linear, Ridge, and Lasso models, the absolute value of their coefficients are 0.8296193042804432, 0.8288892465527583, and 0.8200140807502062, respectively. And comparing all three of them, we can see that the Lasso regression again has the smallest coefficient for the MedInc variable. 
 ```
 print(X_names[0])
 lin = LR(); rid=Ridge(alpha=25.8); las = Lasso(alpha=0.00186)
@@ -149,7 +149,7 @@ lin.coef_[0], rid.coef_[0], las.coef_[0]
 ```
 
 ## 23
-Now we are taking a look at MSE instead of R<sup>2</sup> when doing our ridge regression previously. What we changed is this line of code ```idx = np.argmin(rid_te_mse)``` because we want ```np.argmin()``` rather than ```np.argmax()```. We want to minimize the mean squared error (MSE), rather than use maximize like when we maximized the R<sup>2</sup> value. 
+Now we are taking a look at MSE instead of R<sup>2</sup> when doing our Ridge regression previously. What we changed is this line of code ```idx = np.argmin(rid_te_mse)``` because we want ```np.argmin()``` rather than ```np.argmax()```. We want to minimize the mean squared error (MSE), rather than use maximize like when we maximized the R<sup>2</sup> value. 
 ```
 idx = np.argmin(rid_te_mse)
 print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[idx],)
@@ -157,11 +157,11 @@ print(rid_a_range[idx], rid_tr[idx], rid_te[idx], rid_tr_mse[idx], rid_te_mse[id
 What I get is a different optimal alpha value when looking at MSE rather than R<sup>2</sup> for the Ridge regression. The optimal alpha value, in this case, is 26.1. That is different from the 25.8 I previously got from question 19. 
 
 ## 24 - If we had looked at MSE instead of R<sup>2</sup> when doing our Lasso regression (question 20), what would we have determined the optimal value for alpha to be? Enter your answer to 5 decimal places, for example: 0.12345
-In order to answer the question  to find the optimal alpha value when looking at the Mean Squared Error(MSE) rather than the R<sup>2</sup> value in the Lasso Regression.
+In order to answer the question, we need to find the optimal alpha value when looking at the Mean Squared Error(MSE) rather than the R<sup>2</sup> value in the Lasso regression.
 ```
 idx = np.argmin(las_te_mse)
 print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[idx],)
 ```
-The optimal alpha value for the MSE in the Lasso Regression is 0.00186. This optimal alpha value is the same as the optimal alpha value in question 20. 
+The optimal alpha value for the MSE in the Lasso regression is 0.00186. This optimal alpha value is the same as the optimal alpha value in question 20. 
 
 There were a few reasons why I went wrong. The first was my DoKFold function. 
