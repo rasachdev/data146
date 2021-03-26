@@ -166,4 +166,4 @@ print(las_a_range[idx], las_tr[idx], las_te[idx], las_tr_mse[idx], las_te_mse[id
 ```
 The optimal alpha value for the MSE in the Lasso regression is 0.00186. This optimal alpha value is the same as the optimal alpha value in question 20. 
 
-There were a few reasons why I went wrong. The first was my DoKFold function. 
+There were a few reasons why I went wrong. The first was my DoKFold function. My calculation for the MSE calculation in the DoKFold function was wrong. I was also taking the wrong varibles into account when doing the calculations. In addition, indtead of using ```np.argmin()```, I used ```np.argmax()```. So I was getting the wrong answers as well. With this, I was able to minimize the error which is what we want. 
