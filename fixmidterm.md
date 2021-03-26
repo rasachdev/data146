@@ -62,7 +62,7 @@ Xtransfy_df = Xtransf_df.copy()
 Xtransfy_df['y'] = y
 Xtransfy_df.corr()
 ```
-After standardizing the features, none of the correlations between any of the variables changed. They all were the same from the previous questoin, #15. 
+After standardizing the features, none of the correlations between any of the variables changed. They all were the same from the previous question, #15. 
 
 ## 17
 ## 18
