@@ -65,6 +65,12 @@ Xtransfy_df.corr()
 After standardizing the features, none of the correlations between any of the variables changed. They all were the same from the previous question, #15. 
 
 ## 17
+For this question, we performed a linear regression with the feature that was most correlated with the target in question 15. The feature was MedInc. 
+```
+np.round(np.corrcoef(X_df['MedInc'], y)[0][1]**2,2)
+```
+The coefficient of determination turned out to be 0.47
+
 ## 18
 ## 19
 ## 20
