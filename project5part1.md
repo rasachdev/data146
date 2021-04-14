@@ -8,4 +8,6 @@ Next I ran a ridge regression.
 Then I ran a lasso regression. 
 
 ## 2. WealthI
+The next step was changing my  target variable to wealthI. I did the same steps as the previous step. 
+
 ## 3. Best Results
