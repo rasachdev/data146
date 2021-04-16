@@ -5,7 +5,7 @@ First, I set the variable **wealthC** as my target. I then performed a linear re
 
 For my linear regression, I got a mean training score of 0.7358361818893744 and mean testing score of 0.7350550082046395. I also got a mean MSE trainging score of 0.44278652650445827 and a mean MSE testing score of 0.44375466672109376. When comparing the coefficients of the two models, they are smaller. 
 
-Next I ran a ridge regression. The results I got were: 76.0 0.7358363174051512 0.7350544860652567
+Next I ran a ridge regression. The results I got were an alpha value of 76.0 with a training score of 0.7358363174051512 and a testing score of 0.7350544860652567. 
 
 Then I ran a lasso regression. The results I got were: 0.00026333333333333336 0.7358346356402806 0.7350562589633233
 
