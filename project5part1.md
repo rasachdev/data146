@@ -27,7 +27,11 @@ Next I ran a ridge regression on the dataset given. The results I got were an al
 Then I ran a lasso regression. The results I got were an alpha value of 0.0002633 with a trainging score of 0.73583 and a testing score of 0.73506. Again, like the ridge regession, the lasso regression also shows a very strong correlation between the features and targets from the data. Though a very very slight improvement, the score is virtually the same as the ridge regression but I'd say the lasso regression performed the best for WealthC. 
 
 ## 3. Data Results on WealthI
-The next step was changing my  target variable to **wealthI**. I did the same steps as the previous step. 
+The next step was doing all my previos steps on a different variable. I used the variable to **wealthI** as my target.
+```
+X = pns.drop(["wealthC", "wealthI"], axis=1)
+y = pns.wealthI
+```
 MSE:
 MSE after standardization:
 Coefficients:
