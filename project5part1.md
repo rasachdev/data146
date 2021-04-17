@@ -1,7 +1,7 @@
 # Project 5 - Part 1
 
 ## 1. Data Set Up
-In order to work in the data there were a few steps I had to do first. After bringing the dataset into my workspace, I removed all the NaNs and changed all the values ot integers. These steps proved to be very helpful in order to get started on the regression I needed to do. 
+In order to work in the data there were a few steps I had to do first. After bringing the dataset into my workspace, I removed all the NaNs and changed all the values ot integers. These steps proved to be very helpful in order to get started on the regression I needed to do. I was able to see the type of each of the columns
 ```
 pns = pd.read_csv('persons.csv')
 
@@ -10,6 +10,8 @@ pns.dropna(inplace=True)
 
 pns['age'] = pns['age'].astype(int)
 pns['edu'] = pns['edu'].astype(int)
+
+display(pns.dtypes)
 ```
 
 ## 2. Data Results on WealthC
