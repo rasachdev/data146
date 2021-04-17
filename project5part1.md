@@ -3,15 +3,13 @@
 ## 1. Data Results on WealthC
 First, I set the variable **wealthC** as my target. 
 
-I performed a linear regression and computed the mean squared error, MSE. For the MSE, I got 0.44281. Then I standardized the features and again computed the MSE. With that step, I got the same MSE of 0.44281. When comparing the coefficients of the two models, the standardized coefficients is different and smaller than the non-standardized set.
+I performed a linear regression and computed the mean squared error, MSE. For the MSE, I got 0.44281. Then I standardized the features and again computed the MSE. With that step, I got the same MSE of 0.44281. When comparing the coefficients of the two models, the standardized coefficients is different from and smaller than the non-standardized set.
 
-For my linear regression, I got a mean training score of 0.7358361818893744 and mean testing score of 0.7350550082046395. I also got a mean MSE trainging score of 0.44278652650445827 and a mean MSE testing score of 0.44375466672109376.  
+For my linear regression, I got a training score of 0.73084 and testing score of 0.73006. I also got a mean MSE trainging score of 0.44279 and a mean MSE testing score of 0.44375.
 
-Next I ran a ridge regression. The results I got were an alpha value of 76.0 with a training score of 0.7358363174051512 and a testing score of 0.7350544860652567. 
+Next I ran a ridge regression on the dataset given. The results I got were an alpha value of 76.0 with a training score of 0.73584 and a testing score of 0.73505. Overall, there was a strong correlation between the features and targets as the R squared value was so close to 1. The ridge regression also shows an improvement in correlation from the linear regression. 
 
-Then I ran a lasso regression. The results I got were: 0.00026333333333333336 0.7358346356402806 0.7350562589633233
-
-The lasso regression has a higher mean testing score 
+Then I ran a lasso regression. The results I got were an alpha value of 0.000263 with a trainging score of 0.73583 and a testing score of 0.73506. Again, like the ridge regession, the lasso regression also shows a very strong correlation between the features and targets from the data. Though a very very slight improvement, the score is virtually the same but I'd say the lasso regression performed the best for WealthC. 
 
 ## 2. Data Results on WealthI
 The next step was changing my  target variable to **wealthI**. I did the same steps as the previous step. 
