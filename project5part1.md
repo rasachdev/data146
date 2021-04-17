@@ -2,6 +2,15 @@
 
 ## 1. Data Set Up
 In order to work in the data there were a few steps I had to do first. After bringing the dataset into my workspace, I removed all the NaNs and changed all the values ot integers. These steps proved to be very helpful in order to get started on the regression I needed to do. 
+```
+pns = pd.read_csv('persons.csv')
+
+check_nan = pns['age'].isnull().values.any()
+pns.dropna(inplace=True)
+
+pns['age'] = pns['age'].astype(int)
+pns['edu'] = pns['edu'].astype(int)
+```
 
 ## 2. Data Results on WealthC
 First, I set the variable **wealthC** as my target. 
