@@ -32,10 +32,8 @@ The next step was doing all my previos steps on a different variable. I used the
 X = pns.drop(["wealthC", "wealthI"], axis=1)
 y = pns.wealthI
 ```
-MSE:
-MSE after standardization:
-Coefficients:
-Ridge Regression:
-Lasso Regressoin:
+I performed a linear regression and computed the mean squared error, MSE. For the MSE, I got 1750276834.9304798. Then I standardized the features and again computed the MSE. With that step, I got the same MSE of 1750287416.4378211. These are such large numbers which was a bit weird to get and do not know exactly what went wrong or what was going on. When comparing the coefficients of the two models, the standardized coefficients is different from and bigger than the non-standardized set.
+
+For my linear regression, I got a training score of 0.73084 and testing score of 0.73006. I also got a mean MSE trainging score of 0.44279 and a mean MSE testing score of 0.44375. After standardizing the data, I got a training score of 0.73072 and testing score of 0.73002. Copared to the non-standardized set, these are slightly lower yet a very insignificant different. The standardized mean MSE trainging score was 0.44281 and the mean MSE testing score was 0.44369. Again, very close and different but still extremely insignificant.
 
 ## 4. Best Results from Data
