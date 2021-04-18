@@ -44,3 +44,6 @@ Then I ran a lasso regression. The results I got were an alpha value of 1.02366 
 
 ## 4. Best Results from Data
 Overall, I'd say that WealthI produced the best results in predicting wealth of all persons throughout the smaller West African contry than WealthC did. This conclusion can be seen by the consistantly higher R squared training and testing values between all the regressions: linear, ridge, and lasso. But between the models of the 2 different wealths, WealthC and WealthI, the models that produced the best results were different. The model that produced the best results for WealthC was the lasso regression and the model that produced the best results for WealthI was the ridge regression. This is evident in the higher training and testing scores when compared to the other two models in that were also performed. But still the results only differed between the models by a small number, a very slim margin. My plots show the alpha value with the mean R squared value. The Lasso results graph is for WealthC and the Ridge results graph is for WealthI. 
+
+![](WealthC.PNG)
+![](WealthI.PNG)
