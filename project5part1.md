@@ -34,7 +34,7 @@ The next step was doing all my previos steps on a different variable. I used the
 X = pns.drop(["wealthC", "wealthI"], axis=1)
 y = pns.wealthI
 ```
-I performed a linear regression and computed the mean squared error, MSE. For the MSE, I got 1750276834.9304798. Then I standardized the features and again computed the MSE. With that step, I got the same MSE of 1750287416.4378211. These are such large numbers which was a bit weird to get and do not know exactly what went wrong or what was going on. When comparing the coefficients of the two models, the standardized coefficients is different from and a lot bigger than the non-standardized set proving to have a bigger impact on the target values.
+I performed a linear regression and computed the mean squared error, MSE. For the MSE, I got 1750276834.9304798. Then I standardized the features and again computed the MSE. With that step, I got the same MSE of 1750287416.4378211. These are such large numbers which was a bit weird to get. When comparing the coefficients of the two models, the standardized coefficients is different from and a lot bigger than the non-standardized set proving to have a bigger impact on the target values.
 
 For my linear regression, I got a training score of 0.82584 and testing score of 0.82502. I also got a mean MSE training score of 1750165639.78992 and a mean MSE testing score of 1754642088.30058. After standardizing the data, I got a training score of 0.82582 and testing score of 0.82501. Copared to the non-standardized set, these are slightly lower yet again very insignificant different.
 
