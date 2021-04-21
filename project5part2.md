@@ -6,8 +6,6 @@
 
 ## 3. Random Forest
 
-## 4. Wealth Class 2
-
-## 5. Wealth Class 3
+## 4. Wealth Class 2 & 3
 
 ## 5. Result Analysis
