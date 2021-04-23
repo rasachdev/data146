@@ -21,6 +21,7 @@ y = pns.wealthC
 ## 2. K-Nearest Neighbors
 When executing a KNN classification method, the best results produced from a range of 40 to 200 resulted in a testing score of 0.55051. When performing a KNN and adding a distance weight, the classification method produced a smalled testing score. It produced a score of 0.50024. 
 ![](KNNnoD.PNG)
+
 ![](KNNwD.PNG)
 
 ## 3. Logistic Regression
