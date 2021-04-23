@@ -29,6 +29,6 @@ Next, a logistic regression was executed. It resulted in a testing score of 0.55
 Next, a random forest was performed to produce the best results. The number of estimators (or trees) to 100, 500, 1000, and 5000 with specifications is most likely to return the best model. The training and testing score for 100 trees was 0.7972005 and 0.4997559, respectively. The training and testing score for 500 trees was 0.7972005 and 0.4904831, respectively. The training and testing score for 1000 trees was 0.7972005 and 0.4982918, respectively. The training and testing score for 1000 trees was 0.7972005 and 0.4953636, respectively.
 
 ## 5. Recoding Wealth Class 2 & 3
-With the previous steps done again, there was a difference from before with recoding the wealth classes 2 and 3 into a single outcome. I redid all of the previous models to see the results with the recoding. KNN: . Logistic Regression: . Random Forest . 
+With the previous steps done again, there was a difference from before with recoding the wealth classes 2 and 3 into a single outcome. I redid all of the previous models to see the results with the recoding. KNN: . Logistic Regression: . Random Forest: . 
 
 ## 6. Result Analysis
