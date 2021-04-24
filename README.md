@@ -14,3 +14,4 @@
 3. [Project 3](project3.md)
 4. [Midterm Exam Corrections](fixmidterm.md)
 5. [Project 5: Part 1](project5part1.md)
+6. [Project 5: Part 2](project5part2.md)
