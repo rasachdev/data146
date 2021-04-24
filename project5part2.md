@@ -33,7 +33,7 @@ With the previous steps done again, there was a difference from before with reco
 
 The KNN testing score for the recoding was 0.50093 . And when adding the distance weight, the testing score was 0.46015. The testing score for the recoding was overall was lower than before with wealth class 2 and 3 split. Also when adding the distance weight, the testing score was lower than without the distance weight. 
 
-For the logistic regression: . 
+For the logistic regression, the testing score when executed was 0.51274. The logistic regression score decreased compared to the logistic regression from before. Compared to the KNN and KNN with distance it is higher than both of those for the recoded wealth 2 & 3 data. 
 
 With the random forest: . 
 
