@@ -28,7 +28,7 @@ Next, a logistic regression was executed. It resulted in a testing score of 0.55
 ## 4. Random Forest
 Next, a random forest was performed to produce the results. The number of estimators (or trees) to 100, 500, 1000, and 5000 with specifications is most likely to return the best model. The training and testing score for 100 trees was 0.7972005 and 0.4997559, respectively. The training and testing score for 500 trees was 0.7972005 and 0.4904831, respectively. The training and testing score for 1000 trees was 0.7972005 and 0.4982918, respectively. The training and testing score for 5000 trees was 0.7972005 and 0.4953636, respectively. These have decently high score of accuracy. 
 
-After that, I tested the minimum number of samples that was required to split an internal and got a testing score of 0.56785. Which is not that much higher than the previous models as it is a very close number to them. 
+After that, I tested the minimum number of samples that was required to split an internal from my range of 20 to 30 and found it to be 27 with a testing score of 0.56785. Which is not that much higher than the previous models as it is a very close number to them. 
 
 Next I ran models of standardized data and unstandardized data and compared the results. The standardized and unstandardized score for 100 trees was 0.4988038 and 0.4977799, respectively. The standardized and unstandardized score for 500 trees was 0.5146364 and 0.5043972, respectively. The standardized and unstandardized score for 1000 trees was 0.5280527 and 0.5056125, respectively. The standardized and unstandardized score for 5000 trees was 0.5114690 and 0.5046364, respectively. The standardized data had better and higher scores of accuracy than the unstandardized scores. 
 
