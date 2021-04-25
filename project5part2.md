@@ -1,4 +1,4 @@
-# Project 5 - Part 1
+# Project 5 - Part 2
 
 ## 1. Data Set Up
 In order to work with the data there were a few steps I had to do first. After bringing the dataset into my workspace, I removed all the NaNs and changed all the values to integers. These steps proved to be very helpful in order to get started on the stuff I needed to do. I was also able to see the types of each of the columns.
