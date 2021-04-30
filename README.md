@@ -17,4 +17,4 @@
 6. [Project 5: Part 2](project5part2.md)
 
 ### Extra Credit
-1. Liberia Extra Credit
+1. West Africa Extra Credit
