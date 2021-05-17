@@ -15,6 +15,3 @@
 4. [Midterm Exam Corrections](fixmidterm.md)
 5. [Project 5: Part 1](project5part1.md)
 6. [Project 5: Part 2](project5part2.md)
-
-### Extra Credit
-1. West Africa Extra Credit
